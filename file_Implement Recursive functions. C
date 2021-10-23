@@ -1,0 +1,24 @@
+#include<stdio.h>
+inter dec(int bin) //Recursive function
+{
+if(bin==)
+return 0;
+
+else
+return(bin%10+dec(bin/10)*2);
+}
+void main()
+{
+int bin;
+printf("Enter a binary number\n");
+scanf("%d",&bin);
+printf ("The decimal equivalent of%d is%d\n",bin,de(bin));
+
+
+
+
+
+  
+
+
+
