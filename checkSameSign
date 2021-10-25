@@ -1,0 +1,28 @@
+public class Sign{
+
+public static void main(String args[])
+{
+
+int a = 8;
+int b = -3 ;
+System.out.println(sameSign(a,b));
+
+
+}
+
+static boolean sameSign( int a , int b)
+{
+Boolean flag = false;
+
+if( (a< 0 && b< 0) )
+     flag= true ;
+
+else if( a>0 && b> 0)
+     flag= true ;
+
+
+return flag;
+
+}
+
+}
